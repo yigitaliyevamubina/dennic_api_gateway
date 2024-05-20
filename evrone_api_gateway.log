@@ -188,3 +188,1284 @@ main.main.func1
 2024-05-19T19:42:54.150+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
 main.main.func1
 	/home/ali/Goland/dennic_project_server/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T15:37:23.638+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T15:40:11.372+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T15:40:11.373+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T15:40:59.642+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T15:42:10.076+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unimplemented desc = unknown method GetFilteredAppointments for service booking_service.BookedAppointmentsService
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:48:02.558+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T15:48:14.253+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unimplemented desc = unknown method GetFilteredAppointments for service booking_service.BookedAppointmentsService
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:48:16.010+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unimplemented desc = unknown method GetFilteredAppointments for service booking_service.BookedAppointmentsService
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:48:16.540+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unimplemented desc = unknown method GetFilteredAppointments for service booking_service.BookedAppointmentsService
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:39.149+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:40.265+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:40.661+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:40.831+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:40.991+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:41.127+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:41.272+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:41.409+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:53:41.537+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:54:19.336+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T15:59:15.037+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:139
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:00:01.597+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T16:00:01.598+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T16:00:06.932+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T16:00:08.731+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:02:54.280+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:03:34.803+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:04:17.626+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:04:33.212+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:04:33.530+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:04:34.619+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:04:51.727+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:05:59.431+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:142
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:06:40.058+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T16:06:40.059+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T16:07:03.218+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T16:07:05.047+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:9090: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:07:25.849+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:9090: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:07:50.543+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T16:07:50.544+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T16:08:04.696+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T16:08:11.646+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:9090: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:08:12.890+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:9090: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:08:33.340+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:22:25.666+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T16:22:25.668+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T16:22:28.113+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T16:22:29.741+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:22:32.031+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:22:32.614+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:23:07.171+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:23:08.019+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:23:10.356+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:23:52.426+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:24:19.217+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:24:20.799+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:25:08.848+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = expected 1 arguments, got 0
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:29:16.142+0500	WARN	regtool/handle_error.go:21	rpc error: code = Unknown desc = ERROR: operator does not exist: uuid ~~* unknown (SQLSTATE 42883)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/regtool/handle_error.go:21
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).GetDoctor
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/handlers/v1/doctor.go:140
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/ali/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/home/ali/go/go1.22.0/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/home/ali/go/go1.22.0/src/net/http/server.go:2039
+2024-05-20T16:29:37.950+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T16:29:37.951+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T16:29:43.163+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T16:37:25.521+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T16:37:25.521+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32
+2024-05-20T16:37:31.624+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-20T17:16:51.278+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-20T17:16:51.283+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/Dennic/dennic_api_gateway/cmd/app/main.go:32

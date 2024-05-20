@@ -3,66 +3,63 @@ package v1
 import (
 	"context"
 	e "dennic_admin_api_gateway/api/handlers/regtool"
-	"dennic_admin_api_gateway/api/models"
 	"dennic_admin_api_gateway/api/models/model_healthcare_service"
 	pb "dennic_admin_api_gateway/genproto/healthcare-service"
 	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
-	"google.golang.org/protobuf/encoding/protojson"
 	"net/http"
 	"time"
 )
 
-// CreateSpecialization ...
-// @Summary CreateSpecialization
-// @Description CreateSpecialization - Api for crete specialization
-// @Tags Specialization
-// @Accept json
-// @Produce json
-// @Param SpecializationReq body model_healthcare_service.SpecializationReq true "SpecializationReq"
-// @Success 200 {object} model_healthcare_service.SpecializationRes
-// @Failure 400 {object} model_common.StandardErrorModel
-// @Failure 500 {object} model_common.StandardErrorModel
-// @Router /v1/specialization [post]
-func (h *HandlerV1) CreateSpecialization(c *gin.Context) {
-	var (
-		body        model_healthcare_service.SpecializationReq
-		jsonMarshal protojson.MarshalOptions
-	)
-	jsonMarshal.UseProtoNames = true
-
-	err := c.ShouldBindJSON(&body)
-
-	if e.HandleError(c, err, h.log, http.StatusBadRequest, "CreateSpecialization") {
-		return
-	}
-
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*time.Duration(h.cfg.Context.Timeout))
-	defer cancel()
-
-	specialization, err := h.serviceManager.HealthcareService().SpecializationService().CreateSpecialization(ctx, &pb.Specializations{
-		Id:           uuid.NewString(),
-		Name:         body.Name,
-		Description:  body.Description,
-		DepartmentId: body.DepartmentId,
-		ImageUrl:     body.ImageUrl,
-	})
-
-	if e.HandleError(c, err, h.log, http.StatusInternalServerError, "CreateSpecialization") {
-		return
-	}
-
-	c.JSON(http.StatusOK, model_healthcare_service.SpecializationRes{
-		ID:           specialization.Id,
-		Order:        specialization.Order,
-		Name:         specialization.Name,
-		Description:  specialization.Description,
-		DepartmentId: specialization.DepartmentId,
-		ImageUrl:     specialization.ImageUrl,
-		CreatedAt:    specialization.CreatedAt,
-		UpdatedAt:    e.UpdateTimeFilter(specialization.UpdatedAt),
-	})
-}
+//// CreateSpecialization ...
+//// @Summary CreateSpecialization
+//// @Description CreateSpecialization - Api for crete specialization
+//// @Tags Specialization
+//// @Accept json
+//// @Produce json
+//// @Param SpecializationReq body model_healthcare_service.SpecializationReq true "SpecializationReq"
+//// @Success 200 {object} model_healthcare_service.SpecializationRes
+//// @Failure 400 {object} model_common.StandardErrorModel
+//// @Failure 500 {object} model_common.StandardErrorModel
+//// @Router /v1/specialization [post]
+//func (h *HandlerV1) CreateSpecialization(c *gin.Context) {
+//	var (
+//		body        model_healthcare_service.SpecializationReq
+//		jsonMarshal protojson.MarshalOptions
+//	)
+//	jsonMarshal.UseProtoNames = true
+//
+//	err := c.ShouldBindJSON(&body)
+//
+//	if e.HandleError(c, err, h.log, http.StatusBadRequest, "CreateSpecialization") {
+//		return
+//	}
+//
+//	ctx, cancel := context.WithTimeout(context.Background(), time.Second*time.Duration(h.cfg.Context.Timeout))
+//	defer cancel()
+//
+//	specialization, err := h.serviceManager.HealthcareService().SpecializationService().CreateSpecialization(ctx, &pb.Specializations{
+//		Id:           uuid.NewString(),
+//		Name:         body.Name,
+//		Description:  body.Description,
+//		DepartmentId: body.DepartmentId,
+//		ImageUrl:     body.ImageUrl,
+//	})
+//
+//	if e.HandleError(c, err, h.log, http.StatusInternalServerError, "CreateSpecialization") {
+//		return
+//	}
+//
+//	c.JSON(http.StatusOK, model_healthcare_service.SpecializationRes{
+//		ID:           specialization.Id,
+//		Order:        specialization.Order,
+//		Name:         specialization.Name,
+//		Description:  specialization.Description,
+//		DepartmentId: specialization.DepartmentId,
+//		ImageUrl:     specialization.ImageUrl,
+//		CreatedAt:    specialization.CreatedAt,
+//		UpdatedAt:    e.UpdateTimeFilter(specialization.UpdatedAt),
+//	})
+//}
 
 // GetSpecialization ...
 // @Summary GetSpecialization
@@ -165,84 +162,84 @@ func (h *HandlerV1) ListSpecializations(c *gin.Context) {
 	})
 }
 
-// UpdateSpecialization ...
-// @Summary UpdateSpecialization
-// @Description UpdateSpecialization - Api for update specialization
-// @Tags Specialization
-// @Accept json
-// @Produce json
-// @Param UpdateSpecializationReq body model_healthcare_service.SpecializationReq true "UpdateSpecializationReq"
-// @Param id query string true "id"
-// @Success 200 {object} model_healthcare_service.SpecializationRes
-// @Failure 400 {object} model_common.StandardErrorModel
-// @Failure 500 {object} model_common.StandardErrorModel
-// @Router /v1/specialization [put]
-func (h *HandlerV1) UpdateSpecialization(c *gin.Context) {
-	var (
-		body        model_healthcare_service.SpecializationReq
-		jsonMarshal protojson.MarshalOptions
-	)
-	jsonMarshal.UseProtoNames = true
-
-	err := c.ShouldBindJSON(&body)
-
-	if e.HandleError(c, err, h.log, http.StatusBadRequest, "UpdateSpecialization") {
-		return
-	}
-
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*time.Duration(h.cfg.Context.Timeout))
-	defer cancel()
-
-	specialization, err := h.serviceManager.HealthcareService().SpecializationService().UpdateSpecialization(ctx, &pb.Specializations{
-		Id:           body.Id,
-		Name:         body.Name,
-		Description:  body.Description,
-		DepartmentId: body.DepartmentId,
-		ImageUrl:     body.ImageUrl,
-	})
-
-	if e.HandleError(c, err, h.log, http.StatusInternalServerError, "UpdateSpecialization") {
-		return
-	}
-
-	c.JSON(http.StatusOK, model_healthcare_service.SpecializationRes{
-		ID:           specialization.Id,
-		Order:        specialization.Order,
-		Name:         specialization.Name,
-		Description:  specialization.Description,
-		DepartmentId: specialization.DepartmentId,
-		ImageUrl:     specialization.ImageUrl,
-		CreatedAt:    specialization.CreatedAt,
-		UpdatedAt:    e.UpdateTimeFilter(specialization.UpdatedAt),
-	})
-}
-
-// DeleteSpecialization ...
-// @Summary DeleteSpecialization
-// @Description DeleteSpecialization - Api for delete specialization
-// @Tags Specialization
-// @Accept json
-// @Produce json
-// @Param id query string true "id"
-// @Success 200 {object} models.StatusRes
-// @Failure 400 {object} model_common.StandardErrorModel
-// @Failure 500 {object} model_common.StandardErrorModel
-// @Router /v1/specialization [delete]
-func (h *HandlerV1) DeleteSpecialization(c *gin.Context) {
-	value := c.Query("id")
-
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*time.Duration(h.cfg.Context.Timeout))
-	defer cancel()
-
-	status, err := h.serviceManager.HealthcareService().SpecializationService().DeleteSpecialization(ctx, &pb.GetReqStrSpecialization{
-		Field:    "id",
-		Value:    value,
-		IsActive: false,
-	})
-
-	if e.HandleError(c, err, h.log, http.StatusInternalServerError, "DeleteSpecialization") {
-		return
-	}
-
-	c.JSON(http.StatusOK, models.StatusRes{Status: status.Status})
-}
+//// UpdateSpecialization ...
+//// @Summary UpdateSpecialization
+//// @Description UpdateSpecialization - Api for update specialization
+//// @Tags Specialization
+//// @Accept json
+//// @Produce json
+//// @Param UpdateSpecializationReq body model_healthcare_service.SpecializationReq true "UpdateSpecializationReq"
+//// @Param id query string true "id"
+//// @Success 200 {object} model_healthcare_service.SpecializationRes
+//// @Failure 400 {object} model_common.StandardErrorModel
+//// @Failure 500 {object} model_common.StandardErrorModel
+//// @Router /v1/specialization [put]
+//func (h *HandlerV1) UpdateSpecialization(c *gin.Context) {
+//	var (
+//		body        model_healthcare_service.SpecializationReq
+//		jsonMarshal protojson.MarshalOptions
+//	)
+//	jsonMarshal.UseProtoNames = true
+//
+//	err := c.ShouldBindJSON(&body)
+//
+//	if e.HandleError(c, err, h.log, http.StatusBadRequest, "UpdateSpecialization") {
+//		return
+//	}
+//
+//	ctx, cancel := context.WithTimeout(context.Background(), time.Second*time.Duration(h.cfg.Context.Timeout))
+//	defer cancel()
+//
+//	specialization, err := h.serviceManager.HealthcareService().SpecializationService().UpdateSpecialization(ctx, &pb.Specializations{
+//		Id:           body.Id,
+//		Name:         body.Name,
+//		Description:  body.Description,
+//		DepartmentId: body.DepartmentId,
+//		ImageUrl:     body.ImageUrl,
+//	})
+//
+//	if e.HandleError(c, err, h.log, http.StatusInternalServerError, "UpdateSpecialization") {
+//		return
+//	}
+//
+//	c.JSON(http.StatusOK, model_healthcare_service.SpecializationRes{
+//		ID:           specialization.Id,
+//		Order:        specialization.Order,
+//		Name:         specialization.Name,
+//		Description:  specialization.Description,
+//		DepartmentId: specialization.DepartmentId,
+//		ImageUrl:     specialization.ImageUrl,
+//		CreatedAt:    specialization.CreatedAt,
+//		UpdatedAt:    e.UpdateTimeFilter(specialization.UpdatedAt),
+//	})
+//}
+//
+//// DeleteSpecialization ...
+//// @Summary DeleteSpecialization
+//// @Description DeleteSpecialization - Api for delete specialization
+//// @Tags Specialization
+//// @Accept json
+//// @Produce json
+//// @Param id query string true "id"
+//// @Success 200 {object} models.StatusRes
+//// @Failure 400 {object} model_common.StandardErrorModel
+//// @Failure 500 {object} model_common.StandardErrorModel
+//// @Router /v1/specialization [delete]
+//func (h *HandlerV1) DeleteSpecialization(c *gin.Context) {
+//	value := c.Query("id")
+//
+//	ctx, cancel := context.WithTimeout(context.Background(), time.Second*time.Duration(h.cfg.Context.Timeout))
+//	defer cancel()
+//
+//	status, err := h.serviceManager.HealthcareService().SpecializationService().DeleteSpecialization(ctx, &pb.GetReqStrSpecialization{
+//		Field:    "id",
+//		Value:    value,
+//		IsActive: false,
+//	})
+//
+//	if e.HandleError(c, err, h.log, http.StatusInternalServerError, "DeleteSpecialization") {
+//		return
+//	}
+//
+//	c.JSON(http.StatusOK, models.StatusRes{Status: status.Status})
+//}
