@@ -33,7 +33,7 @@ type RouteOption struct {
 // NewRoute
 // @title Dennic Project
 // @version 1.7
-// @host swag.dennic.uz
+// @host localhost:9050
 // @securityDefinitions.apikey ApiKeyAuth
 // @in header
 // @name Authorization
@@ -101,11 +101,8 @@ func NewRoute(option RouteOption) *gin.Engine {
 
 	// doctor notes
 	doctorNote := api.Group("/doctor-notes")
-	doctorNote.POST("/", HandlerV1.CreateDoctorNote)
 	doctorNote.GET("/get", HandlerV1.GetDoctorNote)
 	doctorNote.GET("/", HandlerV1.ListDoctorNotes)
-	doctorNote.PUT("/", HandlerV1.UpdateDoctorNote)
-	doctorNote.DELETE("/", HandlerV1.DeleteDoctorNote)
 
 	// appointment
 	appointment := api.Group("/appointment")
@@ -117,11 +114,8 @@ func NewRoute(option RouteOption) *gin.Engine {
 
 	// doctorTime
 	doctorTime := api.Group("/doctor-time")
-	doctorTime.POST("/", HandlerV1.CreateDoctorTimes)
 	doctorTime.GET("/get", HandlerV1.GetDoctorTimes)
 	doctorTime.GET("/", HandlerV1.ListDoctorTimes)
-	doctorTime.PUT("/", HandlerV1.UpdateDoctorTimes)
-	doctorTime.DELETE("/", HandlerV1.DeleteDoctorTimes)
 
 	// patient
 	patient := api.Group("/patient")
@@ -151,36 +145,24 @@ func NewRoute(option RouteOption) *gin.Engine {
 
 	// specialization
 	specialization := api.Group("/specialization")
-	specialization.POST("/", HandlerV1.CreateSpecialization)
 	specialization.GET("/get", HandlerV1.GetSpecialization)
 	specialization.GET("/", HandlerV1.ListSpecializations)
-	specialization.PUT("/", HandlerV1.UpdateSpecialization)
-	specialization.DELETE("/", HandlerV1.DeleteSpecialization)
 
 	// doctorServices
 	doctorServices := api.Group("/doctor-services")
-	doctorServices.POST("/", HandlerV1.CreateDoctorService)
 	doctorServices.GET("/get", HandlerV1.GetDoctorService)
 	doctorServices.GET("/", HandlerV1.ListDoctorServices)
-	doctorServices.PUT("/", HandlerV1.UpdateDoctorServices)
-	doctorServices.DELETE("/", HandlerV1.DeleteDoctorService)
 
 	// doctorWorkingHours
 
 	doctorWorkingHours := api.Group("/doctor-working-hours")
-	doctorWorkingHours.POST("/", HandlerV1.CreateDoctorWorkingHours)
 	doctorWorkingHours.GET("/get", HandlerV1.GetDoctorWorkingHours)
 	doctorWorkingHours.GET("/", HandlerV1.ListDoctorWorkingHours)
-	doctorWorkingHours.PUT("/", HandlerV1.UpdateDoctorWorkingHours)
-	doctorWorkingHours.DELETE("/", HandlerV1.DeleteDoctorWorkingHours)
 
 	// reasons
 	reasons := api.Group("/reasons")
-	reasons.POST("/", HandlerV1.CreateReasons)
 	reasons.GET("/get", HandlerV1.GetReasons)
 	reasons.GET("/", HandlerV1.ListReasons)
-	reasons.PUT("/", HandlerV1.UpdateReasons)
-	reasons.DELETE("/", HandlerV1.DeleteReasons)
 
 	// session
 	session := api.Group("session")

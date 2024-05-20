@@ -136,6 +136,7 @@ func (h *HandlerV1) GetDoctor(c *gin.Context) {
 		Limit:    uint64(10),
 		Status:   "attended",
 	})
+
 	if e.HandleError(c, err, h.log, http.StatusInternalServerError, "GetDoctor -> GetFilteredAppointments") {
 		return
 	}
