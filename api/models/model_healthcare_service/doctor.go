@@ -67,7 +67,7 @@ type DoctorRes struct {
 	WorkYears     int32   `json:"work_years"`
 	DepartmentId  string  `json:"department_id"`
 	RoomNumber    int32   `json:"room_number"`
-	Password      string  `json:"password"`
+	Password      string  `json:"-"`
 	CreatedAt     string  `json:"created_at"`
 	UpdatedAt     string  `json:"updated_at"`
 	DeletedAt     string  `json:"deleted_at"`
@@ -101,10 +101,11 @@ type DoctorAndDoctorHours struct {
 	WorkYears       int32        `json:"work_years"`
 	DepartmentId    string       `json:"department_id"`
 	RoomNumber      int32        `json:"room_number"`
-	Password        string       `json:"password"`
+	Password        string       `json:"-"`
 	CreatedAt       string       `json:"created_at"`
 	UpdatedAt       string       `json:"updated_at"`
 	DeletedAt       string       `json:"deleted_at"`
+	PatientCount    int64        `json:"patient_count"`
 	Specializations []DoctorSpec `json:"specializations"`
 }
 
